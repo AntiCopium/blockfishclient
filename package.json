@@ -1,9 +1,16 @@
 {
   "name": "blockfishclient",
   "productName": "blockfishclient",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "1.0.1",
+  "description": "client",
   "main": ".webpack/main",
+  "build": {
+    "appId": "stuff.blockfishgame.workers.dev",
+    "productname": "deepclient",
+    "win": {
+      "icon": "icon.jpg"
+    }
+  },
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -78,10 +85,12 @@
     "fork-ts-checker-webpack-plugin": "^6.0.1",
     "node-loader": "^2.0.0",
     "style-loader": "^3.0.0",
+    "toml": "^3.0.0",
     "ts-loader": "^9.2.2",
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
