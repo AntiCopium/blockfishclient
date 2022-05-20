@@ -2012,6 +2012,16 @@
   "resolved" "https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.31.2.tgz"
   "version" "0.31.2"
 
+"discord-rpc@^4.0.1":
+  "integrity" "sha512-HOvHpbq5STRZJjQIBzwoKnQ0jHplbEWFWlPDwXXKm/bILh4nzjcg7mNqll0UY7RsjFoaXA7e/oYb/4lvpda2zA=="
+  "resolved" "https://registry.npmjs.org/discord-rpc/-/discord-rpc-4.0.1.tgz"
+  "version" "4.0.1"
+  dependencies:
+    "node-fetch" "^2.6.1"
+    "ws" "^7.3.1"
+  optionalDependencies:
+    "register-scheme" "github:devsnek/node-register-scheme"
+
 "discord.js@^13.7.0":
   "integrity" "sha512-iV/An3FEB/CiBGdjWHRtgskM4UuWPq5vjhjKsrQhdVU16dbKrBxA+eIV2HWA07B3tXUGM6eco1wkr42gxxV1BA=="
   "resolved" "https://registry.npmjs.org/discord.js/-/discord.js-13.7.0.tgz"
@@ -6428,6 +6438,11 @@
   "integrity" "sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8="
   "resolved" "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   "version" "1.0.2"
+
+"ws@^7.3.1":
+  "integrity" "sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A=="
+  "resolved" "https://registry.npmjs.org/ws/-/ws-7.5.7.tgz"
+  "version" "7.5.7"
 
 "ws@^7.4.6":
   "integrity" "sha512-KMvVuFzpKBuiIXW3E4u3mySRO2/mCHSyZDJQM5NQ9Q9KHWHWh0NHgfbRMLLrceUK5qAL4ytALJbpRMjixFZh8A=="
