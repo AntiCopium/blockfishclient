@@ -61,10 +61,10 @@
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
-    "@electron-forge/maker-wix": "^6.0.0-beta.63",
     "@electron-forge/maker-deb": "^6.0.0-beta.63",
     "@electron-forge/maker-rpm": "^6.0.0-beta.63",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-wix": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
     "@electron-forge/plugin-webpack": "6.0.0-beta.63",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
@@ -83,6 +83,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
+    "discord.js": "^13.7.0",
     "electron-squirrel-startup": "^1.0.0",
     "git": "^0.1.5"
   }
