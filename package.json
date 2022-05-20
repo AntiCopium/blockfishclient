@@ -67,6 +67,7 @@
     "@electron-forge/maker-wix": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
     "@electron-forge/plugin-webpack": "6.0.0-beta.63",
+    "@types/discord-rpc": "^4.0.3",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@vercel/webpack-asset-relocator-loader": "1.7.0",
@@ -85,6 +86,7 @@
     "bulma": "^0.9.4",
     "discord-rpc": "^4.0.1",
     "discord.js": "^13.7.0",
+    "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0",
     "git": "^0.1.5"
   }
